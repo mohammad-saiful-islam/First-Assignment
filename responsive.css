@@ -1,0 +1,879 @@
+/* Responsive for mobile */
+
+@media (max-device-width: 425px) {
+
+    /* Header section */
+
+.navbar {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 
+}
+.navbar .left-img{
+        width: 100px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 6px;
+        cursor: pointer;
+}
+.navbar .center-heading{
+
+}
+.navbar .center-heading ul{
+    display: flex;
+    gap: 4px;
+    list-style: none;
+    font-size: 20px;
+    display: none;
+}
+.navbar .center-heading ul li{
+    cursor: pointer;
+}
+.navbar .right-heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-right: 15px;
+    
+}
+.nav-button-1{
+    margin:2px;
+    padding: 7px 17px;
+    border-radius:30px ;
+    border-width: 0px;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+.nav-button-2{
+    margin:2px;
+    padding: 7px 10px;
+    border-radius:30px ;
+    border-width: 0px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.nav-right-img{
+    width: 27px;
+    height: auto;
+    cursor: pointer;
+    margin-top:2px ;
+}
+
+/* Banner Section */
+.banner-section{
+    background-image: url(images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+    text-align: center;
+}
+.banner-section .form-section{
+    background-color: #fff;
+    max-width: 100%;
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+.banner-section .form-section h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.banner-section .form-section form select{
+    width: 150px;
+    height: 50px;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: rgba(221, 221, 221, .4);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    
+
+}
+.banner-section .form-section form .form-buttom-1{
+    width: 280px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.banner-section .form-section form .form-buttom-2{
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8px;
+    background-color: #00EBC7;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.nicher-buttom{
+    height:40px ;
+    width: 150px;
+    border: 1px solid #fff;
+    border-radius:30px ;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+
+}
+/* buy sel section */
+.buy-sell-section{
+    height:320px;
+    width: 100%;
+    background-color: #FDE24F;
+    text-align: center;
+}
+.buy-sell-section h3{
+    font-weight: 500;
+    padding:70px;
+    font-size: 30px;
+
+}
+.buy-sell-section .buy-sell-img{
+    width: 90%;
+    cursor: pointer;
+}
+
+/* features section */
+
+.features-sections{
+    width: auto;
+    height: 690px;
+    background-color: #fff;
+    position:relative;
+}
+.features-sections h2{
+    margin: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.features-sections .features-columns{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom:20px ;
+    gap: 25px;
+
+}
+.features-sections .features-columns hr{
+  display: none;
+   margin-top: 20px;
+}
+.features-sections .features-columns img{
+    height: 40px;
+    width: 40px;
+}
+.features-sections .features-columns h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+.features-sections .features-columns p{
+    width: 200px;
+    font-size: 13px;
+    margin: auto;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, .5);
+}
+.features-sections .features-columns u{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom:20px ;
+}
+
+
+.mager-buttom{
+text-align: center;
+margin-top: 20px ;
+
+}
+.feature-buttom{
+height: 40px;
+width: 170px;
+text-align: center;
+background-color: #00000000;
+border-radius: 30px;
+cursor: pointer;
+font-size: 16px;
+}
+
+/* buy sell dollar */
+
+.buy-dollar{
+    display: flex;
+    flex-direction: column;
+       
+   }
+   .buy-dollar{
+       height: 850px;
+       width: auto;
+   }
+   
+   .taka-de{
+       margin: 10px 20px;
+   }
+   .taka-de h1{
+       margin: 30px 0px;
+   }
+   .taka-de div{
+       display: flex;
+       border: 1px solid #b4b2b2;
+       gap: 5px;
+       margin-bottom:10px;
+       padding: 10px;
+       align-items: center;
+       border-radius:10px ;
+   
+   }
+   .taka-de img{
+   width: 40px;
+   }
+   .taka-de pre{
+       font-size: 9px;
+       font-weight: 400;
+       padding: 5px 20px;
+   }
+   
+   .taka-ne{
+       margin: 10px 30px;
+   }
+   .taka-ne h1{
+       margin: 30px 0px;
+   
+   }
+   .taka-ne div{
+       display: flex;
+       border: 1px solid #b4b2b2;
+       gap: 10px;
+       margin-bottom:20px;
+       padding: 10px;
+       align-items: center;
+       border-radius:10px ;
+       position: relative;
+   
+   }
+   .taka-ne img{
+    width: 40px;
+   }
+   .taka-ne pre{
+    font-size: 9px;
+    font-weight: 400;
+    padding: 5px 20px;
+   }
+   
+   .sd-buttom{
+       text-align: center;
+   }
+   .sd-buttom button{
+       width: 200px;
+       height: 40px;
+       border-radius: 10px;
+       background-color: #000000;
+       color: #fff;
+       font: 20px;
+       margin-top: 20px;
+       cursor: pointer;
+   }
+
+   /* crypty fee */
+
+.crypto-fee{
+    height:350px ;
+    width: 100%;
+    background-color: #CFBAFF;
+}
+.crypto-fee p{
+    max-width: 420px;
+    font-size: 29px;
+    margin: auto;
+    padding: 60px;
+}
+.crypto-fee-buttom-parent{
+    text-align: center;
+}
+.crypto-fee .crypto-fee-buttom{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* spacio footer section */
+.footer-section{
+    background-color: #000000;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.footer-boss{
+
+}
+.footer-section .footer-image{
+    position: absolute;
+    top: 0;
+    left: 135px;
+    margin: 10px ;
+}
+.footer-boss .footer-section{}
+.footer-boss .footer-buttom-big-1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: #fff;
+    font-weight: bold;
+
+
+}
+.footer-boss ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.footer-boss .footer-buttom-heading{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 20px 5px;
+    text-align: left;
+    font-size: 16px ;
+    cursor: pointer;
+}
+.footer-boss .toi-alada{
+
+}
+.footer-boss .saide-ja{
+    margin-top: 55px;
+}
+.footer-boss .li-buttom{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 10px;
+
+}
+
+.para-fottor{
+    margin-top: 30px;
+
+}
+.para-fottor p{
+    color: #fff;
+    padding: 0px 20px;
+    font-size: 9px;
+    font-weight: normal;
+}
+
+}
+
+@media (max-device-width: 375px) {
+    /* Banner Section */
+.banner-section{
+    background-image: url(images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+    text-align: center;
+}
+.banner-section .form-section{
+    background-color: #fff;
+    max-width: 100%;
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+.banner-section .form-section h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.banner-section .form-section form select{
+    width: 120px;
+    height: 50px;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: rgba(221, 221, 221, .4);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    
+
+}
+.banner-section .form-section form .form-buttom-1{
+    width: 220px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.banner-section .form-section form .form-buttom-2{
+    height: 40px;
+    width: 160px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8px;
+    background-color: #00EBC7;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.nicher-buttom{
+    height:40px ;
+    width: 150px;
+    border: 1px solid #fff;
+    border-radius:30px ;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+
+}
+/* buy sel section */
+.buy-sell-section{
+    height:250px;
+    width: 100%;
+    background-color: #FDE24F;
+    text-align: center;
+}
+.buy-sell-section h3{
+    font-weight: 500;
+    padding:50px;
+    font-size: 25px;
+
+}
+.buy-sell-section .buy-sell-img{
+    width: 90%;
+    cursor: pointer;
+}
+
+   /* crypty fee */
+
+   .crypto-fee{
+    height:300px ;
+    width: 100%;
+    background-color: #CFBAFF;
+}
+.crypto-fee p{
+    max-width: 420px;
+    font-size: 25px;
+    margin: auto;
+    padding: 50px;
+}
+.crypto-fee-buttom-parent{
+    text-align: center;
+
+}
+.crypto-fee .crypto-fee-buttom{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* buy sell dollar */
+
+.buy-dollar{
+    display: flex;
+    flex-direction: column;
+       
+   }
+   .buy-dollar{
+       height: 850px;
+       width: auto;
+   }
+   
+   .taka-de{
+       margin: 10px 20px;
+   }
+   .taka-de h1{
+       margin: 30px 0px;
+   }
+   .taka-de div{
+       display: flex;
+       border: 1px solid #b4b2b2;
+       gap: 5px;
+       margin-bottom:10px;
+       padding: 10px;
+       align-items: center;
+       border-radius:10px ;
+   
+   }
+   .taka-de img{
+   width: 40px;
+   }
+   .taka-de pre{
+       font-size: 8px;
+       font-weight: 400;
+       padding: 5px 20px;
+   }
+   
+   .taka-ne{
+       margin: 10px 30px;
+   }
+   .taka-ne h1{
+       margin: 30px 0px;
+   
+   }
+   .taka-ne div{
+       display: flex;
+       border: 1px solid #b4b2b2;
+       gap: 5px;
+       margin-bottom:20px;
+       padding: 10px;
+       align-items: center;
+       border-radius:10px ;
+       position: relative;
+   
+   }
+   .taka-ne img{
+    width: 40px;
+   }
+   .taka-ne pre{
+    font-size: 8px;
+    font-weight: 400;
+    padding: 5px 20px;
+   }
+   
+   .sd-buttom{
+       text-align: center;
+   }
+   .sd-buttom button{
+       width: 200px;
+       height: 40px;
+       border-radius: 10px;
+       background-color: #000000;
+       color: #fff;
+       font: 20px;
+       margin-top: 20px;
+       cursor: pointer;
+   }
+
+/* spacio footer section */
+.footer-section{
+    background-color: #000000;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.footer-boss{
+
+}
+.footer-section .footer-image{
+    position: absolute;
+    top: 0;
+    left: 110px;
+    margin: 20px 0;
+    
+}
+.footer-boss .footer-section{}
+.footer-boss .footer-buttom-big-1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: #fff;
+    font-weight: bold;
+
+
+}
+.footer-boss ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 0 10px;
+}
+.footer-boss .footer-buttom-heading{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 20px 5px;
+    text-align: left;
+    font-size: 16px ;
+    cursor: pointer;
+}
+.footer-boss .toi-alada{
+
+}
+.footer-boss .saide-ja{
+    margin-top: 55px;
+}
+.footer-boss .li-buttom{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 10px;
+
+}
+
+.para-fottor{
+    margin-top: 30px;
+
+}
+.para-fottor p{
+    color: #ddd;
+    padding: 0px 20px;
+    font-size: 9px;
+  
+
+}
+}
+
+@media (max-device-width: 320px){
+
+/* Header section */
+
+.navbar {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 
+}
+.navbar .left-img{
+        width: 80px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 6px;
+        cursor: pointer;
+}
+.navbar .center-heading{
+
+}
+
+.navbar .right-heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-right: 15px;
+    
+}
+.nav-button-1{
+    margin:2px;
+    padding: 7px 17px;
+    border-radius:30px ;
+    border-width: 0px;
+    cursor: pointer;
+    font-size: 8px;
+
+}
+.nav-button-2{
+    margin:2px;
+    padding: 7px 10px;
+    border-radius:30px ;
+    border-width: 0px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    font-size: 8px;
+}
+
+.nav-right-img{
+    width: 22px;
+    height: auto;
+    cursor: pointer;
+    margin-top:2px ;
+}
+    /* Banner Section */
+.banner-section{
+    background-image: url(images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+    text-align: center;
+}
+.banner-section .form-section{
+    background-color: #fff;
+    max-width: 100%;
+    height: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+.banner-section .form-section h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.banner-section .form-section form select{
+    width: 100px;
+    height: 50px;
+    margin-left:10px;
+    padding: 10px;
+    background-color: rgba(221, 221, 221, .4);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    
+
+}
+.banner-section .form-section form .form-buttom-1{
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.banner-section .form-section form .form-buttom-2{
+    height: 40px;
+    width: 160px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8px;
+    background-color: #00EBC7;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.nicher-buttom{
+    height:40px ;
+    width: 150px;
+    border: 1px solid #fff;
+    border-radius:30px ;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+/* buy sell dollar */
+
+.buy-dollar{
+    display: flex;
+    flex-direction: column;
+       
+   }
+   .buy-dollar{
+       height: 850px;
+       width: auto;
+   }
+   
+   .taka-de{
+       margin: 10px 20px;
+   }
+   .taka-de h1{
+       margin: 30px 0px;
+   }
+   .taka-de div{
+       display: flex;
+       border: 1px solid #b4b2b2;
+       gap: 5px;
+       margin-bottom:10px;
+       padding: 10px;
+       align-items: center;
+       border-radius:10px ;
+   
+   }
+   .taka-de img{
+   width: 30px;
+   }
+   .taka-de pre{
+       font-size: 7.2px;
+       font-weight: 400;
+       padding: 5px 20px;
+   }
+   
+   .taka-ne{
+       margin: 10px 30px;
+   }
+   .taka-ne h1{
+       margin: 30px 0px;
+   
+   }
+   .taka-ne div{
+       display: flex;
+       border: 1px solid #b4b2b2;
+       gap: 5px;
+       margin-bottom:20px;
+       padding: 10px;
+       align-items: center;
+       border-radius:10px ;
+       position: relative;
+   
+   }
+   .taka-ne img{
+    width: 30px;
+   }
+   .taka-ne pre{
+    font-size: 7.2px;
+    font-weight: 400;
+    padding: 5px 10px;
+   }
+   
+   .sd-buttom{
+       text-align: center;
+   }
+   .sd-buttom button{
+       width: 200px;
+       height: 40px;
+       border-radius: 10px;
+       background-color: #000000;
+       color: #fff;
+       font: 20px;
+       margin-top: 20px;
+       cursor: pointer;
+   }
+}
